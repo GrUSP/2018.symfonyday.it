@@ -9,3 +9,14 @@ since: 2012
 talks_available: false
 schedule_available: false
 workshop_available: false
+
+iubenda:
+  cookiePolicyId: 29098106
+  siteId: 1078163
+  lang: it
+  enableRemoteConsent: true
+  localConsentDomain: symfonyday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-P5GXBFP

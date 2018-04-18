@@ -41,6 +41,9 @@ gold:
     - 3 biglietti gratuiti
   max: 8
   list:
+    -
+      url: http://www.ideato.it?utm_source=symfonyday
+      image: ideato.svg
 
 silver:
   price: € 500

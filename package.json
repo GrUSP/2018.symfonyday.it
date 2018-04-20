@@ -9,8 +9,8 @@
     "gulp": "github:gulpjs/gulp#4.0"
   },
   "scripts": {
-    "build": "./node_modules/.bin/gulp -S --config dustman-cssday.yml",
-    "dev": "./node_modules/.bin/gulp -S --config dustman-cssday.yml watch & jekyll serve",
+    "build": "./node_modules/.bin/gulp -S --config dustman-symfonyday.yml",
+    "dev": "./node_modules/.bin/gulp -S --config dustman-symfonyday.yml watch & jekyll serve",
     "setup": "cp ./node_modules/dustman/gulpfile.js ."
   },
   "repository": {

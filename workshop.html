@@ -1,5 +1,5 @@
 ---
-title: CQRS/Event Sourcing per sviluppatori Symfony a workshop by ideato
+title: CQRS/Event Sourcing per sviluppatori Symfony
 ---
 
 <div class="limit">
@@ -9,13 +9,15 @@ title: CQRS/Event Sourcing per sviluppatori Symfony a workshop by ideato
   </div>
 
   <h1 class="row__title">18 Ottobre 2018, Verona</h1>
-  <h3 class="row__title">Hotel San Marco, Via Longhena 42, 37138, Verona, Italy  -
-    <a href="https://goo.gl/maps/iqQ6n6bNAf72" target="_blank">come raggiungerci</a>
+  <h3 class="row__title">Hotel San Marco, Via Longhena 42, 37138, Verona, Italy -
+    <a href="https://goo.gl/maps/iqQ6n6bNAf72" class="link" target="_blank">come raggiungerci</a>
   </h3>
   <br>
   <h3 class="row__title">un workshop realizzato in collaborazione con
-    <a href="http://www.ideato.it/?utm_source=symfonyday">ideato</a>
+    <a class="link" href="http://www.ideato.it/?utm_source={{ site.data.conference.utm_source }}">ideato</a>
   </h3>
+
+  <hr class="hr">
 
   <div class="row row--2">
     <p class="row__column">
@@ -27,18 +29,19 @@ title: CQRS/Event Sourcing per sviluppatori Symfony a workshop by ideato
     </p>
 
     <p class="row__column">
-    </p>
-
-    <p class="row__column">
       <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
     </p>
-
   </div>
+
+  <hr class="hr">
 
   <h2 class="row__title">Programma</h2>
 
   <div class="row row--1">
-    <div class="row__column">
+    <div class="row__column markdown">
+
+      {{ 'prova di testo con [link](http://www.google.com)' | markdownify }}
+
     <p class="row__text">
       <ul>
         <li>Cos’è CQRS e perché usarlo</li>
@@ -114,7 +117,7 @@ title: CQRS/Event Sourcing per sviluppatori Symfony a workshop by ideato
   <hr class="hr">
 
   <div class="intro intro--no-height">
-    <h1 class="column__title"><a href="{{ site.data.tickets.url }}">Iscriviti ora</a> i posti sono limitati</h1>
+    <h1 class="column__title"><a href="{{ site.data.tickets.url }}" class="link">Iscriviti ora</a> i posti sono limitati</h1>
   </div>
 
 

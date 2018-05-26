@@ -62,6 +62,9 @@ silver:
     -
       url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
       image: madisoft.svg
+    -
+      url: https://www.facile.it/?utm_source=sfday2018
+      image: facile.svg
 
 bronze:
   price: € 300

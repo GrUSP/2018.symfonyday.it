@@ -26,6 +26,7 @@
 -
   speaker_id:
     - ettore-delprino
+    - riccardo-franconi
   title: "Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi"
   extract: >
     CQRS è solo una buzzword del momento? Non solo. In questo talk parleremo di com'è nata la necessità e di come abbiamo
@@ -56,6 +57,7 @@
 -
   speaker_id:
     - riccardo-franconi
+    - ettore-delprino
   title: "Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi"
   extract: >
     CQRS è solo una buzzword del momento? Non solo. In questo talk parleremo di com'è nata la necessità e di come abbiamo

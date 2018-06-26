@@ -4,57 +4,53 @@ title: Schedule
 
 <div class="limit limit--top-margin">
 
-  {% include schedule/intro.html date='20 Ottobre' %}
+  {% include schedule/intro.html date='19 Ottobre' %}
 
   <div class="schedule" data-dates="10-20">
     <table class="schedule__table">
       <thead>
-        {% include schedule/header.html tracks='1' %}
+      {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
-        {% include schedule/event.html time='9.55-10.05' title='Presentazione PUG Milano e SymfonyDay'  fill='true' %}
+      {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+      {% include schedule/event.html time='9.45-10.00' title='Presentazione GrUSP' fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html title='Behat from zero to hero: a practical guide to Symfony integration and usage' time='10.10-11.00' fill='true' %}
-        </tr>
+      <tr>
+        {% include schedule/talk.html title='A dive into Symfony4 for a Symfony user' time='10.05-10.30' fill='true' %}
+      </tr>
 
-        {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
+      <tr>
+        {% include schedule/talk.html title='Autowire all the things!' time='10.35-11.00' fill='true' %}
+      </tr>
 
-        <tr>
-          {% include schedule/talk.html title='Biglietti, prego! A ticket for the (command) bus' time='11.30-12.20' fill='true' %}
-        </tr>
+      {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html title='Symfony Without Bundles' time='12.25-12.50' fill='true' %}
-        </tr>
+      <tr>
+        {% include schedule/talk.html title='High Quality APIs with API Platform' time='11.30-12.20' fill='true' %}
+      </tr>
 
-        {% include schedule/pause.html time='12.50-14.00' title='Lunch' icon="food" fill='true' %}
+      <tr>
+        {% include schedule/talk.html title='PHPCR & API Platform: What it really means to build a CMF' time='12.25-12.50' fill='true' %}
+      </tr>
 
-        <tr>
-          {% include schedule/talk.html title='Disinstallare FOSUserBundle e vivere felici' time='14.00-14.25' fill='true' %}
-        </tr>
+      {% include schedule/pause.html time='12.50-14.30' title='Lunch & Lightning Talks' icon="food" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html title='Reliable service integration' time='14.30-15.20' fill='true' %}
-        </tr>
+      <tr>
+        {% include schedule/talk.html title="Symfony + Docker, dall'ambiente di sviluppo alla produzione" time='14.30-15.20' fill='true' %}
+      </tr>
 
-        <tr>
-          {% include schedule/talk.html title='Symfony Cache component: speed-up your application with a new layer of cache' time='15.25-15.50' fill='true'  %}
-        </tr>
+      <tr>
+        {% include schedule/talk.html title='Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi' time='15.25-16.15' fill='true' %}
+      </tr>
 
-        {% include schedule/pause.html time='15.50-16.20' title='Coffee break' icon="coffee" fill='true' %}
+      {% include schedule/pause.html time='16.15-16.45' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html title='Symfony and frontend: a better way' time='16.20-16.45' fill='true'  %}
-        </tr>
+      <tr>
+        {% include schedule/talk.html title='Composer: write a melody with your dependencies' time='16.45-17.35' fill='true'  %}
+      </tr>
 
-        <tr>
-          {% include schedule/talk.html title='CQRS e Event Sourcing: che l\'Evento sia con te' time='16.50-17.15' fill='true'  %}
-        </tr>
-
-        {% include schedule/event.html time='17.15-17.25' title='Bye bye from GrUSP' fill='true' %}
+      {% include schedule/pause.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
+      {% include schedule/pause.html time='17.45-19.00' title='Happy Hour' icon="bar" fill='true' %}
 
       </tbody>
     </table>
@@ -68,47 +64,43 @@ title: Schedule
       <tbody>
         {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
         {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
-        {% include schedule/event.html time='9.55-10.05' title='Presentazione PUG Milano e SymfonyDay'  fill='true' %}
 
         <tr>
-          {% include schedule/talk.html title='Behat from zero to hero: a practical guide to Symfony integration and usage' time='10.10-11.00' fill='true' %}
+          {% include schedule/talk.html title='A dive into Symfony4 for a Symfony user' time='10.05-10.30' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html title='Autowire all the things!' time='10.35-11.00' fill='true' %}
         </tr>
 
         {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html title='Biglietti, prego! A ticket for the (command) bus' time='11.30-12.20' fill='true' %}
+          {% include schedule/talk.html title='High Quality APIs with API Platform' time='11.30-12.20' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html title='Symfony Without Bundles' time='12.25-12.50' fill='true' %}
+          {% include schedule/talk.html title='PHPCR & API Platform: What it really means to build a CMF' time='12.25-12.50' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='12.50-14.00' title='Lunch' icon="food" fill='true' %}
+        {% include schedule/pause.html time='12.50-14.30' title='Lunch & Lightning Talks' icon="food" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html title='Disinstallare FOSUserBundle e vivere felici' time='14.00-14.25' fill='true' %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Reliable service integration' time='14.30-15.20' fill='true' %}
+          {% include schedule/talk.html title="Symfony + Docker, dall'ambiente di sviluppo alla produzione" time='14.30-15.20' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html title='Symfony Cache component: speed-up your application with a new layer of cache' time='15.25-15.50' fill='true'  %}
+          {% include schedule/talk.html title='Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi' time='15.25-16.15' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='15.50-16.20' title='Coffee break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='16.15-16.45' title='Coffee break' icon="coffee" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html title='Symfony and frontend: a better way' time='16.20-16.45' fill='true'  %}
+          {% include schedule/talk.html title='Composer: write a melody with your dependencies' time='16.45-17.35' fill='true'  %}
         </tr>
 
-        <tr>
-          {% include schedule/talk.html title='CQRS e Event Sourcing: che l\'Evento sia con te' time='16.50-17.15' fill='true'  %}
-        </tr>
-
-        {% include schedule/event.html time='17.15-17.25' title='Bye bye from GrUSP' fill='true' %}
+        {% include schedule/pause.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
+        {% include schedule/pause.html time='17.45-19.00' title='Happy Hour' icon="bar" fill='true' %}
       </tbody>
     </table>
   </div>

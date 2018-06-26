@@ -1,0 +1,84 @@
+-
+  speaker_id:
+    - alessandro-lai
+  title: Symfony + Docker, dall'ambiente di sviluppo alla produzione
+  extract: >
+    Docker è una tecnologia che ormai ha preso largamente piede negli ambienti di sviluppo di applicazioni web: da anni
+    ormai è una alternativa superiore alle classiche macchine virtuali, molto più avide di risorse hardware. Il passaggio
+    però all'ambiente di produzione è stato molto meno ""virale"" e si fatica ancora a trovare risorse e consigli su come
+    portare la propria applicazione in produzione usando Docker e i container.
+
+    In questo talk vedremo un flusso di continuous integration & delivery che ho perfezionato nell'ultimo anno su diverse
+    applicazioni Symfony: partendo dal comune uso di Docker Compose in locale, ho sfruttato la stessa configurazione
+    nell'ambiente di build per amalgamare al meglio le immagini Docker e le configurazioni, sfruttando diversi
+    accorgimenti ed ottimizzazioni per poi arrivare alle immagini pronte per la produzione; infine vedremo un breve
+    accenno di come ho utilizzato queste immagini sul cluster Kubernetes di produzione.
+
+-
+  speaker_id:
+    - antonello-dippolito
+  title: "Composer: write a melody with your dependencies"
+  extract: >
+    Composer è uno degli strumenti più utilizzati dell'ecosistema PHP: il talk parte dall'analizzare che cos'è e cosa fa,
+    quali sono i suoi comandi di base, cosa sono i constraint ed il semantic versioning, fino arrivare ad i repository di
+    pacchetti, come scegliere una dipendenza, o come risolvere un conflitto sul composer.lock.
+
+-
+  speaker_id:
+    - ettore-delprino
+  title: "Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi"
+  extract: >
+    CQRS è solo una buzzword del momento? Non solo. In questo talk parleremo di com'è nata la necessità e di come abbiamo
+    migrato un'applicazione Symfony data-centric (Doctrine/CRUD) ad una architettura CQRS in EventSourcing.
+
+-
+  speaker_id:
+    - michele-orselli
+  title: A dive into Symfony4 for a Symfony user
+  extract: >
+    "Symfony 4 is a great release, probably the best ever…" parole di Fabien Potencier, e se lo dice lui potete crederci!
+    Questa release si è concentrata molto sull’esperienza d’uso da parte degli sviluppatori e rendere più intuivo il suo
+    utilizzo senza dimanticare la rapidità di sviluppo e le performance. Flex, l’approccio più vicino con le app twelve
+    factors, una nuova struttura delle directory e la rimozione dei bundle per organizzare il codice sono solo alcune
+    delle novità introdotte, che vedremo in questa sessione.
+
+-
+  speaker_id:
+    - nelson-kopliku
+  title: High Quality APIs with API Platform
+  extract: >
+    Il web è in continua evoluzione, tutto ruota intorno ai dati e le API sono ormai un must per distribuirli al meglio
+    ai diversi client che ne necessitano.
+    Vedremo in che modo API Platform ci può aiutare a portare in produzione in tempi brevi piattaforme di web-services
+    funzionali. Identificheremo i concetti chiave del framework, capiremo come istruirlo a seconda delle nostre esigenze
+    e come si integra naturalmente nell'ecosistema Symfony.
+
+-
+  speaker_id:
+    - riccardo-franconi
+  title: "Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi"
+  extract: >
+    CQRS è solo una buzzword del momento? Non solo. In questo talk parleremo di com'è nata la necessità e di come abbiamo
+    migrato un'applicazione Symfony data-centric (Doctrine/CRUD) ad una architettura CQRS in EventSourcing.
+
+-
+  speaker_id:
+    - salvatore-pollaci
+  title: "PHPCR & API Platform: What it really means to build a CMF"
+  extract: >
+    Scrivere un CMF da zero: uno degli strumenti che il mondo PHP/Symfony mette a disposizione per la gestione dei
+    contenuti è PHPCR. In questo talk vi spiegherò come abbiamo utilizzato Doctrine PHPCR ODM e API Platform per poter
+    costruire un CMF ed esporre le sue funzionalità in maniera REST. Inoltre vi mostrerò gli imprevisti che ci ha
+    lasciato e come li abbiamo superati.
+
+-
+  speaker_id:
+    - samuele-lilli
+  title: Autowire all the things!
+  extract: >
+    Dalla versione 3.3 di Symfony l'autowire è stato introdotto come buona pratica per iniettare i servizi. Se abbiamo
+    un progetto green field e stiamo partendo con questa versione (o superiore) del framework non abbiamo nessun problema
+    ma se abbiamo una vecchia applicazione, magari legacy, la migrazione verso l'autowire potrebbe spaventare un po'.
+    In questo talk introdurrò il concetto di autowire e mostrerò come evitare le trappole che una migrazione di questo
+    tipo può presentare sul cammino, basandomi sulla migrazione dell'applicativo Nuvola in cui sono presenti più di mille
+    servizi esplicitamente dichiarati.

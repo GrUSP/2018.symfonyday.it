@@ -3,3 +3,59 @@
 call_for_paper_url: https://goo.gl/forms/wHSsfrxs388tTV5z2
 call_for_paper: false
 list:
+  -
+    id: alessandro-lai
+    description:
+    image: alessandro-lai.jpg
+    first_name: Alessandro
+    last_name: Lai
+    twitter: AlessandroLai
+  -
+    id: antonello-dippolito
+    description:
+    image: antonello-dippolito.jpg
+    first_name: Antonello
+    last_name: D'Ippolito
+    twitter: antodippo
+  -
+    id: ettore-delprino
+    description:
+    image: ettore-delprino.jpg
+    first_name: Ettore
+    last_name: Delprino
+    twitter: edelprino
+  -
+    id: michele-orselli
+    description:
+    image: michele-orselli.jpg
+    first_name: Michele
+    last_name: Orselli
+    twitter: _orso_
+  -
+    id: nelson-kopliku
+    description:
+    image: nelson-kopliku.jpg
+    first_name: Nelson
+    last_name: Kopliku
+    twitter: koplikunel
+  -
+    id: riccardo-franconi
+    description:
+    image: riccardo-franconi.jpg
+    first_name: Riccardo
+    last_name: Franconi
+    twitter: ricfrank
+  -
+    id: salvatore-pollaci
+    description:
+    image: salvatore-pollaci.jpg
+    first_name: Salvatore
+    last_name: Pollaci
+    twitter: pollaci89
+  -
+    id: samuele-lilli
+    description:
+    image: samuele-lilli.jpg
+    first_name: Samuele
+    last_name: Lilli
+    twitter: SamueleLilli

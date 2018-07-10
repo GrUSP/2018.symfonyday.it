@@ -60,6 +60,9 @@ silver:
   max: 16
   list:
     -
+      url: https://www.innoteam.it/
+      image: innoteam.svg
+    -
       url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
       image: madisoft.svg
     -

@@ -60,7 +60,7 @@ silver:
   max: 16
   list:
     -
-      url: https://www.innoteam.it/
+      url: https://www.innoteam.it/?utm_source=sfday2018
       image: innoteam.svg
     -
       url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday

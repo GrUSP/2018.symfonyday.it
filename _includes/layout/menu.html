@@ -18,7 +18,7 @@
           sold out
         </div>
       {% else %}
-        <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__register">
+        <a href="{{ site.data.tickets.url }}"  class="menu__register">
           Registrati<br>
           adesso
         </a>
@@ -40,13 +40,23 @@
           </a>
         </li>
         {% endif %}
+
+        {% if site.data.conference.workshop_available %}
+        <li class="menu__item">
+        <a href="{{ site.baseurl }}/workshop.html" class="menu__button">
+          Workshop
+        </a>
+        </li>
+        {% endif %}
+
+
         <li class="menu__item">
           {% if site.data.tickets.sold_out %}
             <span class="menu__button menu__button--sold-out">
               Biglietti
             </span>
           {% else %}
-            <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button">
+            <a href="{{ site.data.tickets.url }}" class="menu__button">
               Biglietti
             </a>
           {% endif %}

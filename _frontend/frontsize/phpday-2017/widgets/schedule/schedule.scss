@@ -138,6 +138,11 @@
       margin: auto;
       width: 50%;
     }
+
+    a {
+      color: #2d2d2d;
+      text-decoration: none;
+    }
   }
 
   @include element ('detail') {
@@ -153,6 +158,10 @@
   @include element ('speaker') {
     color: $color-text-schedule-speaker;
     text-decoration: none;
+
+    a {
+      color: $color-text-schedule-speaker;
+    }
 
     & + &::before {
       color: $color-text;

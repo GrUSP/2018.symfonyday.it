@@ -60,14 +60,16 @@ silver:
   max: 16
   list:
     -
+      url: https://www.facile.it/?utm_source=sfday2018
+      image: facile.svg
+    -
       url: https://www.innoteam.it/?utm_source=sfday2018
       image: innoteam.svg
     -
       url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
       image: madisoft.svg
-    -
-      url: https://www.facile.it/?utm_source=sfday2018
-      image: facile.svg
+    - url: https://www.studiomado.it/consulenza-web/formazione/corso-symfony?utm_source=symfonyday&utm_medium=cpc&utm_campaign=formazione
+      image: mado.svg
 
 bronze:
   price: € 300

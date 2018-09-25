@@ -33,6 +33,9 @@ platinum:
     - 4 biglietti gratuiti
   max: 2
   list:
+    -
+      url: http://www.ideato.it?utm_source=symfonyday
+      image: ideato.svg
 
 gold:
   price: € 1,000
@@ -45,9 +48,6 @@ gold:
     - 3 biglietti gratuiti
   max: 8
   list:
-    -
-      url: http://www.ideato.it?utm_source=symfonyday
-      image: ideato.svg
     -
       url: http://bit.ly/MKSymfony2018
       image: motor-k.svg

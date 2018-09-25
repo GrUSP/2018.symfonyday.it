@@ -51,6 +51,9 @@ gold:
     -
       url: http://bit.ly/MKSymfony2018
       image: motor-k.svg
+    -
+      url: https://remote-developer.io/?utm_source=symfonyday
+      image: remote-developer.svg
 
 silver:
   price: € 500
@@ -71,7 +74,8 @@ silver:
     -
       url: https://labs.madisoft.it/symfony-developer/?utm_source=symfonyday
       image: madisoft.svg
-    - url: https://www.studiomado.it/consulenza-web/formazione/corso-symfony?utm_source=symfonyday&utm_medium=cpc&utm_campaign=formazione
+    -
+      url: https://www.studiomado.it/consulenza-web/formazione/corso-symfony?utm_source=symfonyday&utm_medium=cpc&utm_campaign=formazione
       image: mado.svg
 
 bronze:

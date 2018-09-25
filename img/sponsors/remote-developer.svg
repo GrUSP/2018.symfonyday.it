@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 192 96"
+   height="96"
+   width="192"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,96)"
+     id="g10"><g
+       id="g12"><path
+         id="path14"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 0,0 H 144 V 72 H 0 Z" /><text
+         id="text20"
+         style="font-variant:normal;font-weight:bold;font-size:23.0390625px;font-family:Montserrat;-inkscape-font-specification:Montserrat-Bold;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1,0,0,-1,10.078125,40.801094)"><tspan
+           id="tspan16"
+           y="0"
+           x="0 17.048906 31.678711 56.169231 71.259819 80.890144">Remote</tspan><tspan
+           id="tspan18"
+           y="25.920006"
+           x="0 18.961147 33.360561 46.792336 61.445179 68.379936 83.47052 99.367477 113.99728">Developer</tspan></text>
+</g></g></svg>

@@ -3,6 +3,7 @@ list:
     slug: cqrs-event-sourcing-per-sviluppatori-symfony
     title: CQRS/Event Sourcing per sviluppatori Symfony
     when: 18 Ottobre 2018, Verona
+    timetable: Registrazione 9:00 - 9:30 / Workshop 9:30 - 18:00 (con pause pranzo e caffè)
     where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
     map: https://goo.gl/maps/iqQ6n6bNAf72
     ticket: https://www.eventbrite.it/e/symfonyday-2018-tickets-44688021074
@@ -40,13 +41,18 @@ list:
       - Symfony Base
       - Unit test (opzionale)
     useful_info: |
-      La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay).
+      La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay) con i seguenti orari:
+
+        - Registrazione 9:00 - 9:30
+        - Workshop 9:30 - 18:00 (con pause pranzo e caffè)
+
       Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
       È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.
   -
     slug: sviluppare-con-symfony-4-workshop
     title: Sviluppare con Symfony 4
     when: 18 Ottobre 2018, Verona
+    timetable: Registrazione 9:00 - 9:30 / Workshop 9:30 - 18:00 (con pause pranzo e caffè)
     where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
     map: https://goo.gl/maps/iqQ6n6bNAf72
     ticket: https://www.eventbrite.it/e/symfonyday-2018-tickets-44688021074
@@ -87,6 +93,10 @@ list:
       - Symfony Base
       - Unit test (opzionale)
     useful_info: |
-      La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay).
+      La durata del corso è di una giornata e **si terrà il 18 Ottobre** (il giorno prima del SymfonyDay) con i seguenti orari:
+
+        - Registrazione 9:00 - 9:30
+        - Workshop 9:30 - 18:00 (con pause pranzo e caffè)
+
       Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo e la macchina virtuale per far girare i test e l’applicazione.
       È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.

@@ -66,6 +66,9 @@ silver:
   max: 16
   list:
     -
+      url: http://www.doing.com/?utm_source=sfday2018
+      image: doing.svg
+    -
       url: https://www.facile.it/?utm_source=sfday2018
       image: facile.svg
     -

@@ -16,20 +16,28 @@
 
 -
   speaker_id:
+  - alessandro-lai
+  title: Adding Event Sourcing to an existing PHP project (for the right reasons)
+  extract: >
+    "Event Sourcing", along with "CQRS" (Command Query Responsibility Segregation), have recently become trending terms,
+    and now there is so much theory, blog posts and talks about them. However, most of these deal with the problem
+    starting from an utopian assumption: having to write a project from scratch (greenfield), but at the same time with
+    a high domain complexity right from the start, enough to justify the use of a complex technique like event sourcing
+    and CQRS, which carry a fair amount of inherent complexity. But the reality greatly differs: projects are born from
+    small and simple prototypes, and they accumulate complexity only with time and the growth and evolution of
+    specifications and features. This talk is a case history in which I will tell you (with little theory and a lot of
+    practical examples) how we decided to add event sourcing to an already existing project (without eradicating the
+    rest or rewriting it), to solve a specific problem (reporting and its historization) for which this methodology
+    proved to be the perfect solution.
+
+-
+  speaker_id:
     - antonello-dippolito
   title: "Composer: write a melody with your dependencies"
   extract: >
     Composer è uno degli strumenti più utilizzati dell'ecosistema PHP: il talk parte dall'analizzare che cos'è e cosa fa,
     quali sono i suoi comandi di base, cosa sono i constraint ed il semantic versioning, fino arrivare ad i repository di
     pacchetti, come scegliere una dipendenza, o come risolvere un conflitto sul composer.lock.
-
--
-  speaker_id:
-    - ettore-delprino
-  title: "Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi"
-  extract: >
-    CQRS è solo una buzzword del momento? Non solo. In questo talk parleremo di com'è nata la necessità e di come abbiamo
-    migrato un'applicazione Symfony data-centric (Doctrine/CRUD) ad una architettura CQRS in EventSourcing.
 
 -
   speaker_id:
@@ -52,14 +60,6 @@
     Vedremo in che modo API Platform ci può aiutare a portare in produzione in tempi brevi piattaforme di web-services
     funzionali. Identificheremo i concetti chiave del framework, capiremo come istruirlo a seconda delle nostre esigenze
     e come si integra naturalmente nell'ecosistema Symfony.
-
--
-  speaker_id:
-    - riccardo-franconi
-  title: "Da CRUD ad CQRS/ES: Una serie di (s)fortunati eventi"
-  extract: >
-    CQRS è solo una buzzword del momento? Non solo. In questo talk parleremo di com'è nata la necessità e di come abbiamo
-    migrato un'applicazione Symfony data-centric (Doctrine/CRUD) ad una architettura CQRS in EventSourcing.
 
 -
   speaker_id:

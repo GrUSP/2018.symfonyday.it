@@ -18,13 +18,6 @@ list:
     last_name: D'Ippolito
     twitter: antodippo
   -
-    id: ettore-delprino
-    description:
-    image: ettore-delprino.jpg
-    first_name: Ettore
-    last_name: Delprino
-    twitter: edelprino
-  -
     id: michele-orselli
     description:
     image: michele-orselli.jpg
@@ -38,13 +31,6 @@ list:
     first_name: Nelson
     last_name: Kopliku
     twitter: koplikunel
-  -
-    id: riccardo-franconi
-    description:
-    image: riccardo-franconi.jpg
-    first_name: Riccardo
-    last_name: Franconi
-    twitter: ricfrank
   -
     id: salvatore-pollaci
     description:
